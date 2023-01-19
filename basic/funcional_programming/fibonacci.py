@@ -1,4 +1,4 @@
-num = int(input())
+num: int = int(input())
 
 
 def fibonacci(n):

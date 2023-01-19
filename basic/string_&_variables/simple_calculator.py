@@ -1,6 +1,6 @@
 # your code goes here
-a = int(input())
-b = int(input())
+a:int = int(input())
+b:int = int(input())
 
 print(a +b )
 

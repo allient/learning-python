@@ -1,5 +1,5 @@
 #change the function
-def adder(x, *y):
+def adder(x:int, *y:tuple[int]):
     print(x+sum(y))
 
 adder(2, 3)

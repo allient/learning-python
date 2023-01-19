@@ -1,5 +1,5 @@
 class Number:
-    def __init__(self, num):
+    def __init__(self, num: int):
         self.value = num
         
     #your code goes here
@@ -8,7 +8,7 @@ class Number:
         return self.value % 2 == 0 
    
  
-x = Number(int(input()))
+x: Number = Number(int(input()))
 print(x.isEven)
 
 """

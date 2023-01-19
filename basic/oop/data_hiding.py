@@ -1,15 +1,15 @@
 class BankAccount:
-    def __init__(self, balance):
+    def __init__(self, balance: int):
         self._balance = balance
 
     def __repr__(self):
          return "Account Balance: {}".format(self._balance)
     
-    def deposit(self, amount):
+    def deposit(self, amount: int):
         #your code goes here
         self._balance += amount
 
-acc = BankAccount(0)
+acc: BankAccount = BankAccount(0)
 acc.deposit(int(input()))
 print(acc)
 

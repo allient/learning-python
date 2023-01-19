@@ -8,7 +8,7 @@ class Car(Vehicle):
         self.color = color
 
 
-obj = Car("BMW", "red")
+obj: Car = Car("BMW", "red")
 
 obj.horn()
 

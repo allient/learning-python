@@ -1,4 +1,4 @@
-n = int(input())
+n: int = int(input("Enter a number:"))
 
 for x in range(1, n):
     if x % 2 == 0:

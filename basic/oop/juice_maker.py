@@ -15,7 +15,7 @@ class Juice:
 a = Juice('Orange', 1.5)
 b = Juice('Apple', 2.0)
 
-result = a + b
+result: Juice = a + b
 print(result)
 
 """

@@ -1,8 +1,8 @@
-names = ["David", "John", "Annabelle", "Johnathan", "Veronica"]
+names: list[str] = ["David", "John", "Annabelle", "Johnathan", "Veronica"]
 
 #your code goes here
 
-response = list(filter(lambda x: len(x) > 5, names))
+response: list[str] = list(filter(lambda x: len(x) > 5, names))
 
 print(response)
 

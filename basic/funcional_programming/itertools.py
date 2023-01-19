@@ -1,6 +1,6 @@
 from itertools import permutations
 
-items = ['x', 'y']
+items: list[str] = ['x', 'y']
 
 #your code goes here
 

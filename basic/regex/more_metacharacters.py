@@ -1,5 +1,5 @@
 import re
-password = input()
+password:str = input()
 
 #your code goes here
 pattern = r"\w*[A-Z]\w*[0-9]\w*"

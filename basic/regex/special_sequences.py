@@ -1,5 +1,5 @@
 import re
-text = input()
+text:str = input()
 #your code goes here
 #use re.findall() with r"#\w+" as the regex
 match = re.findall(r"#\w+", text)

@@ -1,5 +1,5 @@
 import re
-Id = input()
+Id:str = input()
 
 #your code goes here
 

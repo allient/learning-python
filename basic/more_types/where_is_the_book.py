@@ -1,4 +1,4 @@
-books = {
+books: dict[str, str] = {
     "Life of Pi": "Adventure Fiction", 
     "The Three Musketeers": "Historical Adventure",
     "Watchmen": "Comics", 
@@ -7,10 +7,10 @@ books = {
     "Good Omens": "Comedy"
 }
 
-book = input()
+book:str = input()
 
 #change this part to use the .get() method
-result = books.get(book, "Book not found")
+result:str = books.get(book, "Book not found")
 
 print(result)
 

@@ -1,12 +1,12 @@
 class Calculator:
     #your code goes here
     @staticmethod
-    def add(a,b):
+    def add(a:int ,b:int):
         return a + b
 
         
-n1 = int(input())
-n2 = int(input())
+n1:int = int(input())
+n2:int = int(input())
 
 print(Calculator.add(n1, n2))
 

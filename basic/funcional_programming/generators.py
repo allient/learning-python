@@ -1,4 +1,4 @@
-txt = input()
+txt:str = input()
 
 def words():
     #your code goes here

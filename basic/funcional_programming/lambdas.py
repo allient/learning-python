@@ -1,6 +1,6 @@
-x = int(input())
+x: int = int(input())
 
-y = (lambda z:z**3)(x)
+y: int = (lambda z:z**3)(x)
 
 print(y)
 

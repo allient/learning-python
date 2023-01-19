@@ -1,6 +1,6 @@
 import re
 
-word = input()
+word:str = input()
 #your code goes here
 
 

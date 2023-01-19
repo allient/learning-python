@@ -1,5 +1,5 @@
 class BankAccount:
-    def __init__(self, balance):
+    def __init__(self, balance: int):
         self.balance = balance
 
     def __add__(self, other):
@@ -9,7 +9,7 @@ class BankAccount:
 a = BankAccount(1024)
 b = BankAccount(42)
 
-result = a + b
+result: BankAccount = a + b
 print(result.balance)
 
 """

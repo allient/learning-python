@@ -1,4 +1,4 @@
-celsius = int(input())
+celsius:int = int(input())
 
 def conv(c):
     #your code goes here

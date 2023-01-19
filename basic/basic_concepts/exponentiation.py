@@ -1,6 +1,6 @@
 # your code goes here
-penny = 0.01
-penny_total = penny * (2 ** 30)
+penny: float = 0.01
+penny_total: float = penny * (2 ** 30)
 
 print(penny_total)
 

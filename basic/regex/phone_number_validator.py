@@ -1,15 +1,15 @@
 import re
 #your code goes here
 
-def is_valid_phone_number(number):
+def is_valid_phone_number(phone_number:str):
     pattern = "^[18 9]{1}[0-9]{7}$"
-    if re.match(pattern, number):
+    if re.match(pattern, phone_number):
         return "Valid"
     else:
         return "Invalid"
 
-number = input()
-print(is_valid_phone_number(number))
+phone_number:str = input()
+print(is_valid_phone_number(phone_number))
 
 """
 Phone Number Validator

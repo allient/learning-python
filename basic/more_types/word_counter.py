@@ -1,4 +1,4 @@
-txt = input()
+txt:str = input()
 
 #your code goes here
 txt = txt.split(" ")

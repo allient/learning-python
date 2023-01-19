@@ -1,10 +1,10 @@
 import re
 
 #your code goes here
-str = input()
+word: str = input()
 pattern = r"^00"
-newstr = re.sub(pattern, "+", str)
-print(newstr)
+new_word: str = re.sub(pattern, "+",word)
+print(new_word)
 
 """
 Regular expressions

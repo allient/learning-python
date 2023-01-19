@@ -1,5 +1,5 @@
 def concatenate(first_word, *args):
-    attachment = ""
+    attachment:str = ""
     for word in args:
         attachment += "-" + word
     return (first_word + attachment )

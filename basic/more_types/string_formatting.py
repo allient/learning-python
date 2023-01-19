@@ -1,9 +1,9 @@
-name = input()
-age = int(input())
+name:str = input()
+age:int = int(input())
 
 #your code goes here
 
-txt = "{name} is {age} years old".format(name = name, age = age)
+txt:str = "{name} is {age} years old".format(name = name, age = age)
 
 
 print(txt)

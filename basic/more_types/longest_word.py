@@ -1,8 +1,8 @@
-txt = input()
+txt: int = input()
 
 #your code goes here
-words = txt.split(" ")
-longest_word = ""
+words: str = txt.split(" ")
+longest_word: str = ""
 
 for word in words:
     if len(word) > len(longest_word):
