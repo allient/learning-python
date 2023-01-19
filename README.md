@@ -1,6 +1,10 @@
-# Python Core Course - Projects and Exercises
+# Python Core Course of SoloLearn - Projects and Exercises
 
 This repository contains the projects and exercises completed during the Python Core course. Each folder contains the files related to a specific module.
+
+## Website of SoloLearn course
+
+https://www.sololearn.com/learning/1073
 
 ## Content
 
